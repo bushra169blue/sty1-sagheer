@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ميني شيك</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #ff9a8b, #ff6a88, #ff64a0, #9b59b6, #5b9b6e);
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+        }
+
+        h1 {
+            font-size: 2.5em;
+        }
+
+        #welcome, #ideas, #ending, #thanks, #contact {
+            padding: 20px;
+            margin: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 8px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .idea {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .idea img {
+            width: 150px;
+            height: auto;
+            margin-right: 20px;
+        }
+
+        .idea p {
+            flex: 1;
+        }
+
+        #contact a {
+            color: #2c3e50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>مرحبًا في "ميني شيك"</h1>
+    <p>هنا تجدين أفكار تنسيق ملابس الأطفال بكل سهولة وراحة. دعي طفلك يتألق بألوان جميلة تتناسب مع كل مناسبة!</p>
+</header>
+
+<section id="welcome">
+    <h2>مرحبًا بكِ في موقعنا!</h2>
+    <p>نحن هنا لمساعدتك في تنسيق ملابس الأطفال بطريقة ممتعة وسهلة، مع نصائح تتناسب مع كل المناسبات.</p>
+</section>
+
+<section id="ideas">
+    <h2>20 فكرة لتنسيق ملابس الأطفال</h2>
+    <div class="idea">
+        <img src="https://via.placeholder.com/150" alt="فكرة تنسيق 1">
+        <p>تنسيق ملابس للأطفال لاحتفالات العيد بالألوان الزاهية مع أكسسوارات مناسبة.</p>
+    </div>
+    <div class="idea">
+        <img src="https://via.placeholder.com/150" alt="فكرة تنسيق 2">
+        <p>ملابس صيفية ملونة للأطفال مع قبعة شمسية لأسلوب مريح وأنيق.</p>
+    </div>
+    <div class="idea">
+        <img src="https://via.placeholder.com/150" alt="فكرة تنسيق 3">
+        <p>تنسيق عصري لملابس الأطفال للحفلات بألوان دافئة وملابس مريحة.</p>
+    </div>
+    <!-- أضف أفكار أخرى مشابهة -->
+</section>
+
+<section id="ending">
+    <p>نحن هنا لنجعل تنسيق ملابس أطفالك أسهل وأكثر إبداعًا. استمتعي بأفكارنا وتنسيقاتنا المناسبة لكل مناسبة.</p>
+</section>
+
+<section id="thanks">
+    <p>شكرًا لزيارة "ميني شيك"! نتمنى أن تكوني قد استفدت من أفكارنا. إذا كانت لديك أي أسئلة، لا تترددي في التواصل معنا.</p>
+</section>
+
+<section id="contact">
+    <p>للتواصل معنا، يمكنك إرسال بريد إلكتروني إلى: <a href="mailto:contact@minishake.com">contact@minishake.com</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2025 ميني شيك. كل الحقوق محفوظة.</p>
+</footer>
+
+</body>
+</html>
